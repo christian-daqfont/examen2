@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="caja">
+        <header class="header">
+            <div class="header1">
+                <i class="fa fa-cog" aria-hidden="true"> SISTEMAS</i>
+                </div>
+            <div class="header2">
+        </header>
+        <div class="cuerpo">
+            <div class="casillas">
+                <input type="text" class="caja1" id="texto" placeholder="Texto">
+                <input type="text" class="caja2" id="descripcion" placeholder="Descripcion">
+                <button class="boton" onclick="registrar()">Registrar</button>
+            </div>
+            <div class="celdas">
+                <div class="linea">Linea de Post</div>
+                <div class="cuadro">
+                    <table id="table">
+                        <thead>
+                            <tr>
+                                <th>titulo</th>
+                                <th>descripcion</th>
+                                <th colspan="2">Accion</th>
+            
+                            </tr>
+                        </thead>
+                        <tbody id="tbd"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/scrip.js"></script>
+</body>
+</html>
